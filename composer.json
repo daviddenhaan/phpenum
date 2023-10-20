@@ -1,0 +1,29 @@
+{
+    "name": "dulkoss/phpenum",
+    "description": "A better Enum for PHP.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dulkoss\\Phpenum\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David",
+            "email": "75451291+dulkoss@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.24"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
