@@ -93,7 +93,7 @@ abstract class Enum
 
         $actual = self::resolveType($against);
 
-        if (interface_exists($expected)) {
+        if (interface_exists($expected) || class_exists($expected)) {
             return [$against instanceof $expected, $expected, $actual];
         }
 
